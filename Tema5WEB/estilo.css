@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200&display=swap');
+
+body, h1, h2, h3, table {
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url(recursos/hacker.gif);
+}
+
+
+#cuerpo {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+header table {
+    width: 70%;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+#img {
+    border: 8px solid black;
+    border-radius: 3%;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+table img{
+    border: 8px solid black;
+    border-radius: 3%;
+    height: 150px;
+    margin-left: 5%;
+}
+
+body a {
+    color: blue;
+}
+
+header a {
+    font-weight: bold;
+}
+
+#contenido{
+    padding-left: 10%;
+    padding-right:10%;
+}
+#imgchip{
+    text-align: right;
+    height: 200px;
+}
+#links{
+    padding: 8px;
+    text-align: center;
+}
+
+#contacta{
+    text-align: left;
+
+}
+#conctactadiv{
+    padding-bottom: 4%;
+    text-align: center;
+}
+#contactoform{
+    text-align: center;
+    border: 3px solid black;padding-left:20%;padding-right:20%;padding-bottom: 2%; border-radius: 3%;
+}
+#gatoizquierda{
+    float: left;
+    position:static;
+    padding-left: 5px;
+}
+#gatoderecha{
+    float: right;
+    position:static;
+    padding-right: 5px;
+
+}
+#gatoindex{
+    position: fixed;
+    bottom: -4%;
+    right: 10%;
+    width: 100px;
+
+}
+#gatoindexi{
+    position: fixed;
+    bottom: -4%;
+    left: 10%;
+    width: 100px;
+
+}
+

@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@200&display=swap');
+body {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-image: url(recursos/hacker.gif);
+}
+
+header table {
+    width: 70%;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+#cuerpo {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
